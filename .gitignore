@@ -11,3 +11,6 @@ node_modules/
 # Packaged build artifacts
 *.zip
 web-helper-*.zip
+
+# Raw screenshot/video source material (deliverables live in docs/)
+screenshots/

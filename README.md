@@ -3,8 +3,7 @@
 A side-panel workbench for capturing web pages and selections as clean markdown —
 edit it locally, then copy or export it to the AI assistant of your choice.
 
-> _Screenshot coming soon._
-> <!-- Replace this line with: ![Web Helper side panel](docs/screenshot.png) -->
+![Web Helper side panel — capturing a Wikipedia article as markdown](docs/screenshot.png)
 
 
 ## Why this exists

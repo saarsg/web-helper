@@ -5,6 +5,8 @@ edit it locally, then copy or export it to the AI assistant of your choice.
 
 ![Web Helper side panel — capturing a Wikipedia article as markdown](docs/screenshot.png)
 
+![Capturing a page as markdown, extracting tables, and exporting — in the side panel](docs/demo.gif)
+
 
 ## Why this exists
 

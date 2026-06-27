@@ -3,7 +3,9 @@
 A side-panel workbench for capturing web pages and selections as clean markdown —
 edit it locally, then copy or export it to the AI assistant of your choice.
 
-![Web Helper side panel — screenshot placeholder](docs/screenshot.png)
+> _Screenshot coming soon._
+> <!-- Replace this line with: ![Web Helper side panel](docs/screenshot.png) -->
+
 
 ## Why this exists
 

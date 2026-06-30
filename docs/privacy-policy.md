@@ -1,13 +1,13 @@
-# Privacy Policy — Web Helper
+# Privacy Policy — Mark Clipper
 
-**Last updated: 2026-06-27**
+**Last updated: 2026-06-30**
 
-Web Helper does not collect, transmit, or sell any of your data. There are no
+Mark Clipper does not collect, transmit, or sell any of your data. There are no
 accounts, no servers, no analytics, and no API keys.
 
 ## What the extension reads
 
-To capture page content, Web Helper reads the page you are currently viewing —
+To capture page content, Mark Clipper reads the page you are currently viewing —
 its text, tables, and metadata — at the moment you click a capture button. It can
 read any page you visit because it auto-follows your active tab; this is what lets
 the side panel always capture the page in front of you. Reading a page is not the
@@ -29,5 +29,5 @@ requests of its own.
 
 ## Contact
 
-Web Helper is open source. Questions or concerns can be raised on the project's
+Mark Clipper is open source. Questions or concerns can be raised on the project's
 repository.

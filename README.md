@@ -1,11 +1,11 @@
-![Web Helper — a cluttered web page distilled into clean structured markdown](docs/banner.png)
+![Mark Clipper — a cluttered web page distilled into clean structured markdown](docs/banner.png)
 
-# Web Helper
+# Mark Clipper
 
 A side-panel workbench for capturing web pages and selections as clean markdown —
 edit it locally, then copy or export it to the AI assistant of your choice.
 
-![Web Helper side panel — capturing a Wikipedia article as markdown](docs/screenshot.png)
+![Mark Clipper side panel — capturing a Wikipedia article as markdown](docs/screenshot.png)
 
 ![Capturing a page as markdown, extracting tables, and exporting — in the side panel](docs/demo.gif)
 
@@ -13,7 +13,7 @@ edit it locally, then copy or export it to the AI assistant of your choice.
 ## Why this exists
 
 - **Capturing web content for an AI is fiddly.** Copy-paste drags in navigation,
-  ads, and hidden junk; Web Helper gives you clean markdown of the page or just
+  ads, and hidden junk; Mark Clipper gives you clean markdown of the page or just
   your selection, dropped where your cursor is.
 - **No accounts, no API keys, nothing leaves your machine.** Everything is
   assembled locally and stored on your computer. Sending to an AI is always a
@@ -30,12 +30,12 @@ edit it locally, then copy or export it to the AI assistant of your choice.
 
 Download the latest release ZIP and unzip it:
 
-**→ [web-helper-v0.5.0.zip](https://github.com/saarsg/web-helper/releases/latest/download/web-helper-v0.5.0.zip)**
+**→ [mark-clipper-v0.5.1.zip](https://github.com/saarsg/mark-clipper/releases/latest/download/mark-clipper-v0.5.1.zip)**
 
 It unzips to a folder containing `manifest.json` and the extension files directly
 — that folder is exactly what you load, nothing to dig into.
 
-> Prefer the source? `git clone https://github.com/saarsg/web-helper.git` — then
+> Prefer the source? `git clone https://github.com/saarsg/mark-clipper.git` — then
 > load the **`extension/`** subfolder instead (Chrome ignores the repo's other files).
 
 ### 2. Load it in your browser
@@ -79,7 +79,7 @@ scripted by any extension — capturing one shows a clear message, not an error.
 
 ## Permissions and security
 
-Web Helper's permissions are **deliberately not minimal**, and the reasoning is
+Mark Clipper's permissions are **deliberately not minimal**, and the reasoning is
 worth stating plainly.
 
 ### Why `<all_urls>`

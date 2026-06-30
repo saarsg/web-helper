@@ -1,4 +1,4 @@
-// Service worker: clicking the toolbar icon opens the Web Helper SIDE PANEL, and the capture
+// Service worker: clicking the toolbar icon opens the Mark Clipper SIDE PANEL, and the capture
 // SOURCE auto-follows the active tab. With host_permissions:<all_urls>, executeScript works on any
 // tab without a per-click gesture grant, so the panel always targets whatever page is in front.
 // (Tradeoff the user accepted: this extension can read every page you visit — Chrome warns about it
@@ -17,7 +17,7 @@ function recordSource(tab) {
 chrome.action.onClicked.addListener((tab) => {
   if (tab && tab.windowId != null) {
     chrome.sidePanel.open({ windowId: tab.windowId })
-      .catch(err => console.error('[web-helper] sidePanel.open failed:', err));
+      .catch(err => console.error('[mark-clipper] sidePanel.open failed:', err));
   }
   recordSource(tab);
 });

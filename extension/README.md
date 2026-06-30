@@ -1,4 +1,4 @@
-# Web Helper
+# Mark Clipper
 
 A personal Chromium **web workbench**. Click the toolbar icon to open a docked **side panel**:
 capture page or selection content as clean markdown, edit it, then export it or send it to an

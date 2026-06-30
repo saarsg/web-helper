@@ -10,7 +10,7 @@ node_modules/
 
 # Packaged build artifacts
 *.zip
-web-helper-*.zip
+mark-clipper-*.zip
 
 # Raw screenshot/video source material (deliverables live in docs/)
 screenshots/

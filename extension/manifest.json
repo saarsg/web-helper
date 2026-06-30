@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Web Helper",
-  "version": "0.5.0",
-  "description": "Personal web workbench: capture page/selection content as markdown, edit it, export or send to an AI chat.",
+  "name": "Mark Clipper",
+  "version": "0.5.1",
+  "description": "Clip any web page or selection into clean Markdown, edit it, and send it to your AI chat. Private, local, no accounts.",
   "permissions": ["scripting", "storage", "clipboardWrite", "tabs", "sidePanel"],
   "host_permissions": ["<all_urls>"],
   "background": {
@@ -12,7 +12,7 @@
     "default_path": "workbench.html"
   },
   "action": {
-    "default_title": "Open Web Helper workbench",
+    "default_title": "Open Mark Clipper",
     "default_icon": {
       "16": "icons/icon16.png",
       "32": "icons/icon32.png",

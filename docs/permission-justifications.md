@@ -1,11 +1,11 @@
-# Permission Justifications — Web Helper
+# Permission Justifications — Mark Clipper
 
 One paragraph per requested permission, reflecting how the extension actually
 uses it.
 
 ## `scripting`
 
-Web Helper captures content by injecting a small, self-contained script into the
+Mark Clipper captures content by injecting a small, self-contained script into the
 page you are viewing (`chrome.scripting.executeScript`), running in the page's
 isolated world, which reads the text/tables/metadata and returns it to the side
 panel. This is the core mechanism of every capture feature — without `scripting`
@@ -31,7 +31,7 @@ explicit action; it does not read your clipboard.
 ## `tabs`
 
 The side panel needs to know which tab is currently in front so it can show the
-correct source URL and capture the right page. Web Helper listens for tab
+correct source URL and capture the right page. Mark Clipper listens for tab
 activation/update and window focus changes to keep the panel's "source" pointed
 at your active tab (the auto-follow behavior). It reads tab URLs to display the
 current source and to detect un-capturable browser pages (`chrome://`, the web
@@ -46,7 +46,7 @@ keep it persistent while you work.
 
 ## `host_permissions: <all_urls>`
 
-This is the load-bearing permission, and it is requested deliberately. Web Helper
+This is the load-bearing permission, and it is requested deliberately. Mark Clipper
 auto-follows your active tab: when you switch tabs, the side panel's capture
 source updates automatically so the next capture hits the page actually in front
 of you — no per-page click-to-grant, no silent breakage when you change tabs. To

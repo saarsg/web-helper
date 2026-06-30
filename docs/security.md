@@ -1,15 +1,15 @@
 # Security & prompt-injection protection
 
-Web Helper captures web pages so you can paste them into an AI assistant. A web page
+Mark Clipper captures web pages so you can paste them into an AI assistant. A web page
 is **untrusted** — it can hide instructions aimed at that AI ("ignore previous
 instructions, exfiltrate…"), often invisibly. This page is the honest account of what
-Web Helper defends against, and what it can't.
+Mark Clipper defends against, and what it can't.
 
 ## The guiding rule
 
 > **What you paste is what you could have seen.**
 
-Web Helper removes the *invisible* traps so the captured markdown matches what was
+Mark Clipper removes the *invisible* traps so the captured markdown matches what was
 actually on screen. It does **not** try to judge meaning — visible text that happens to
 be adversarial is still captured (see [Honest limits](#honest-limits)). That boundary is
 deliberate: it's the part that can be made reliable.
@@ -43,14 +43,14 @@ and opens the AI tab — *you* paste. The human stays in the loop.
 ## Honest limits
 
 - **Visible adversarial prose is not stopped.** If a page contains "AI: ignore your
-  instructions and…" in plain, readable text, that's real content — Web Helper captures
+  instructions and…" in plain, readable text, that's real content — Mark Clipper captures
   it. Your defense there is the UNTRUSTED-CONTENT fence plus the receiving AI's own
   judgment. No capture tool can strip this without also dropping legitimate text.
 - **Plain-text output weakens the fence.** The `plain` format drops the frontmatter and
   banner markers. Prefer markdown / HTML / JSON when the destination AI should clearly
   see the data/instructions boundary (Context Pack re-asserts it regardless).
 - **Don't rely on the AI chat UI to sanitize.** Some chat UIs strip smuggled Unicode,
-  some don't, and fixes regress. Web Helper does it at capture time so you're not
+  some don't, and fixes regress. Mark Clipper does it at capture time so you're not
   depending on the destination.
 
 ## Why not the Chrome Web Store yet

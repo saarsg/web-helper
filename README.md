@@ -30,7 +30,7 @@ edit it locally, then copy or export it to the AI assistant of your choice.
 
 Download the latest release ZIP and unzip it:
 
-**→ [web-helper-v0.4.0.zip](https://github.com/saarsg/web-helper/releases/latest/download/web-helper-v0.4.0.zip)**
+**→ [web-helper-v0.5.0.zip](https://github.com/saarsg/web-helper/releases/latest/download/web-helper-v0.5.0.zip)**
 
 It unzips to a folder containing `manifest.json` and the extension files directly
 — that folder is exactly what you load, nothing to dig into.
